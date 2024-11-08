@@ -53,7 +53,7 @@ AntallKjortKmPerAar = int(input("Tast inn antall kjørelengde i km per år for �
 
 #Beregning av kostnadene til Elbil og Bensin bil, så å finne kostnad differensen mellom dem.     
 ElBilTotalKostnad       = ( AntallKjortKmPerAar * ( BomAvgiftElbil     + ElBilForbrukKostnad ) + ( ForsikringElBil     + TrafikkAvgiftElbil      ))
-BensinBilTotalKostnad   = ( AntallKjortKmPerAar * ( BomAvgiftBensinbil + BensinBilForbruk   )) + ( ForsikringBensinBil + TrafikkAvgiftBensinbil   )
+BensinBilTotalKostnad   = ( AntallKjortKmPerAar * ( BomAvgiftBensinbil + BensinBilForbruk    ) + ( ForsikringBensinBil + TrafikkAvgiftBensinbil  ))
 ElOgBensinBilKostnadDiv =   BensinBilTotalKostnad - ElBilTotalKostnad
 
 #Skriver ut resultater av beregning til konsollen.
